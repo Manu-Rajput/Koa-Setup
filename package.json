@@ -1,0 +1,24 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/server.ts"
+  },
+  "author": "manu",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.12.1",
+    "koa-mongo": "^1.9.1",
+    "koa-router": "^9.0.1",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.3",
+    "@types/koa-router": "^7.4.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
